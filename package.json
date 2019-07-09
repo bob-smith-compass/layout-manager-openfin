@@ -1,0 +1,10 @@
+{
+  "name": "openfin-template",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@types/openfin": "latest",
+    "hadouken-js-adapter": "latest",
+    "live-server": "latest"
+  },
+  "license": "Apache-2.0"
+}
