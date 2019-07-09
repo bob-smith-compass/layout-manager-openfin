@@ -7,6 +7,7 @@
         "autoShow": true,
         "saveWindowState": true
     },
+    "services": [ {"name": "layouts"} ],
     "runtime": {
         "arguments": "",
         "version": "stable"
@@ -16,6 +17,5 @@
         "description": "Openfin POC",
         "icon": "http://localhost:5555/favicon.ico",
         "name": "Openfin POC"
-    },
-    "services": [ {"name": "layouts"} ]
+    }
 }
