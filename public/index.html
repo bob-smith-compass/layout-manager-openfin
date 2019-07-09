@@ -8,11 +8,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/draggable.css">
 </head>
 
 <body>
     <div class="logo-container">
-        <img src="assets/logo.svg">
+        <img src="assets/logo.svg" alt="">
     </div>
     <div>
         <h1>Layout Manager</h1>
@@ -24,10 +25,34 @@
             <p>In this exercise we'll walk through extending a basic web application to the OpenFin Runtime.</p>
         </details>
         <summary>
-        <button type="button" onclick="launchWindow('./child.html')">Launch New Window</button>
+            <button type="button" onclick="launchWindow('./child.html')">Launch New Window</button>
+
+            <!-- draggable -->
+            <!-- <div id="toolbar">[Toolbar]</div>
+            <div id="dragger">
+                <div class="listened noselect" id="closer">Click to close</div>
+            </div>
+            <div id="main">
+                <div class="listened noselect">I will turn blue when I receive a mouseleave Event</div>
+                <div class="listened noselect">I will turn blue when I receive a mouseleave Event</div>
+                <div class="listened noselect">I will turn blue when I receive a mouseleave Event</div>
+                <div class="listened noselect">I will turn blue when I receive a mouseleave Event</div>
+            </div>
+            <div class="noselect" id="copy">
+                <h1>Draggable Areas and Mouse Events</h1>
+                <p>The purpose of this demonstration is to show how to create mouseover events and draggable areas on
+                    frameless windows by setting the CSS property of
+                    <pre>-webkit-app-region: drag;</pre>.</p>
+                <p>We will set the app's draggable area on the DOM element with an id of 'toolbar'.</p>
+                <p>The initial state of the DOM Elements with mouse listeners is orange and they have the CSS property
+                    '-webkit-app-region: no-drag;' to allow them to receive mouse Events, even when nested in a 'drag'
+                    region. When they receive a 'mouseover' they turn red and a 'mouseleave' turns them blue.</p>
+            </div> -->
+            <!-- draggable -->
 
     </div>
     <script src="js/main.js"></script>
+    <script src="js/draggable.js"></script>
 </body>
 
 </html>

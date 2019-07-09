@@ -16,5 +16,6 @@
         "description": "Openfin POC",
         "icon": "http://localhost:5555/favicon.ico",
         "name": "Openfin POC"
-    }
+    },
+    "services": [ {"name": "layouts"} ]
 }

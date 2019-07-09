@@ -1,0 +1,86 @@
+
+html{
+    overflow: hidden;
+    height: 100%;
+}
+
+body{
+    background-color: #24282d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+}
+
+h1{
+    font-weight: 100;
+    color: #0095dd;
+    font-size: 36px;
+    -webkit-margin-before:0;
+}
+
+#dragger{
+    width:100%;
+    height:60px;
+    background-color:#454545 ;
+    -webkit-app-region: drag;
+}
+.listened{
+    display: block;
+    width: 200px;
+    height: 30px;
+    padding: 4px;
+    margin: 12px 4px;
+    background-color: #ff9e24;
+    -webkit-app-region: no-drag !important;
+}
+.listened p {
+   margin:0;
+    padding:0;
+}
+
+#closer{
+   width:180px !important;
+   position: absolute;
+   top:5px;
+   right: 10px;
+   bottom: 10px;
+   height: 32px;
+   line-height: 16px;
+   -webkit-app-region: no-drag !important;
+}
+#copy{
+    width:550px;
+    position: absolute;
+    top: 72px;
+    left:225px;
+    color: #e6e6e6;
+    padding: 8px;
+}
+.fixed-pos{
+    position: absolute;
+    top:30px;
+    left: 10px;
+}
+.mouseleave{
+    background-color: #7ffaff;
+}
+.mouseover{
+    background-color: #ff0000;
+}
+pre{
+    color: #13a09a;
+    display: inline;
+}
+
+p, pre{
+    line-height: 16px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
